@@ -1,0 +1,7 @@
+.widgetlayout {
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 40%;
+  float: left;
+  margin: 15px;
+}

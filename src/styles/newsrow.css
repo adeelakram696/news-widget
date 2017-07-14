@@ -1,0 +1,19 @@
+.newsRow{
+  padding: 12px;
+  clear: both;
+}
+.news-image{
+  width: 100px;
+  float: left;
+}
+.news-row-title{
+  font-size: 16px;
+  float: left;
+  font-weight: bold;
+}
+.news-description{
+  float: left;
+}
+.news-read-more{
+  float: right;
+}
