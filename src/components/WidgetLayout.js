@@ -8,11 +8,11 @@ import NewsList from './NewsList';
 class WidgetLayout extends React.Component {
 
   render() {
-    const {title, newsList, isLoading} = this.props;
+    const {title, newsList} = this.props;
     return (
       <div className="widgetlayout">
         <NewsTitle title={title} />
-        <NewsList newsList={newsList} isLoading = {isLoading}/>
+        <NewsList newsList={newsList}/>
       </div>
     );
   }

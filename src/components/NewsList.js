@@ -6,7 +6,7 @@ import NewsRow from './NewsRow';
 
 class NewsList extends React.Component {
   renderNews(){
-    if(this.props.isLoading || !this.props.newsList) {
+    if(!this.props.newsList) {
       return <div>Loading</div>
     }
     return ((this.props.newsList || {}).articles || []).map((news,ind) =>
